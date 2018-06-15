@@ -53,8 +53,8 @@ void Acorralado::setInitialValues(void){
    ArrayInitialize(lsNumOrder, -1);
    p=0;
    // 0.001 = $0.01
-   deltaTips = 400*0.001;
-   deltaStTp = 30*0.001;
+   deltaTips = 200*0.001;
+   deltaStTp = 20*0.001;
    balance = 0;
    botIsOpen = true;
    symbol = "USDJPY";
